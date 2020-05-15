@@ -1,0 +1,34 @@
+body {
+    /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #a7bfe8, #6190e8);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #a7bfe8, #6190e8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* clock center */
+  font-family: "Rubik", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#clockBox {
+    background-color: black;
+    height: 300px;
+    width: 600px;
+    border: 15px solid #565656;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container {
+    text-align: center;
+}
+
+#time {
+    color: white;
+    font-size: 120px;
+}
